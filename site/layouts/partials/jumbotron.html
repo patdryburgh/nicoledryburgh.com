@@ -9,13 +9,14 @@
                 {{.subtitle}}
             </p>
         </div>
+        {{ end }}
+
         {{ if .education }}
             <div class="f6 mt3 balanced-text">
             {{ .education | markdownify }}
             </div>
         {{ end }}
 
-        {{ end }}
     </div>
     <div class="masthead-image flex justify-center justify-end-l w-40-ns pt3-l order-0-ns">
         <img src="{{ .imageUrl }}" alt="Nicole Dryburgh" class="v-base w-100 mw5-25">
