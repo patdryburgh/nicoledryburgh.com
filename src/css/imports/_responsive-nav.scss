@@ -70,9 +70,9 @@
         bottom: var(--spacing-medium);
         left: 0;
         width: 40%;
-        @media (min-height: 751px) {
+        @media (min-height: 651px) {
             bottom: auto;
-            top: 670px;
+            top: 600px;
         }
     }
 
