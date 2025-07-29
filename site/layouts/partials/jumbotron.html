@@ -1,12 +1,14 @@
 <div class="masthead flex-ns items-center">
-    <div class="tc tl-ns pv5 ph3 ph0-ns mw6 order-1-ns">
-        <h1 class="f2 f1-l b lh-solid mb3">
+    <div class="tc tl-ns pv5 ph3 ph0-ns mw7 order-1-ns">
+        <h1 class="f2 f2-l b lh-solid mb3">
             {{.title}}
         </h1>
         {{ if .subtitle }}
-        <p class="f4 f3-l di lh-title mb3 mw6 balanced-text i grey-3" style="font-family: 'Times New Roman', serif" >
-            {{.subtitle}}
-        </p>
+        <div class="mb3 mw6 balanced-text">
+            <p class="f4 f3-l di lh-title i grey-3" style="font-family: Baskerville, 'Times New Roman', serif">
+                {{.subtitle}}
+            </p>
+        </div>
         {{ if .education }}
             <div class="f6 mt3">
             {{ .education | markdownify }}
@@ -15,7 +17,7 @@
 
         {{ end }}
     </div>
-    <div class="masthead-image flex justify-center justify-end-l w-40-ns pt3 pt3-l order-0-ns">
+    <div class="masthead-image flex justify-center justify-end-l w-40-ns pt3 pt5-l order-0-ns">
         <img src="{{ .imageUrl }}" alt="Nicole Dryburgh" class="v-base w-100 mw5-25">
     </div>
 </div>

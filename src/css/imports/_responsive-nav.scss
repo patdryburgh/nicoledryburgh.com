@@ -70,15 +70,15 @@
         bottom: var(--spacing-medium);
         left: 0;
         width: 40%;
-        @media (min-height: 681px) {
+        @media (min-height: 751px) {
             bottom: auto;
-            top: 600px;
+            top: 670px;
         }
     }
 
     .nav-menu {
         margin-left: auto;
-        margin-right: var(--spacing-medium);
+        margin-right: calc(var(--spacing-medium) * 2);
         bottom: auto;
     }
 
