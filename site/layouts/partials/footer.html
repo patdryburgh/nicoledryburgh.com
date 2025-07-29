@@ -1,33 +1,49 @@
-<footer class="bg-black ph3 pv4 white relative z-9999">
+<footer class="bg-black ph3 pv5 white relative z-9999" id="contact">
 
-	<div class="mw7 center pt3">
+    <div class="mw7 center">
 
-		<div class="measure-narrow center mb4">
+        <!--		<div class="measure-narrow center mb4">-->
 
-			<p class="f3 lh-title light-gray b tc mb2">{{ .Site.Data.footer.title }}</p>
-			<p class="tc">{{ .Site.Data.footer.blurb }}</p>
+        <!--			<p class="f3 lh-title light-gray b tc mb2">{{ .Site.Data.footer.title }}</p>-->
+        <!--			<p class="tc">{{ .Site.Data.footer.blurb }}</p>-->
 
-			{{ partial "newsletter-form" . }}
+        <!--			{{ partial "newsletter-form" . }}-->
 
-		</div>
+        <!--		</div>-->
 
-		<div class="flex-ns justify-center items-center">
+        <div class="flex-ns justify-center items-center">
+            <ul class="flex">
+                <li>
+                    <a href="mailto:nicoledryburgh@fas.harvard.edu" class="pa2 no-underline db">Email</a>
+                </li>
+                <li>
+                    <a href="https://www.researchgate.net/profile/Nicole-Dryburgh" class="pa2 no-underline db">ResearchGate</a>
+                </li>
+                <li>
+                    <a href="[Find me on Google Scholar &rarr;](https://scholar.google.com/citations?user=Epj8-BQAAAAJ&hl=en&inst=3169411791868728414&oi=ao_)" class="pa2 no-underline db">Google Scholar</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/nicole-dryburgh-phd" class="pa2 no-underline db">LinkedIn</a>
+                </li>
+            </ul>
+        </div>
 
-			<ul class="flex">
-				<li><a href="/" class="link mr2">Home</a></li>
-				<li><a href="/post" class="link mr2">Blog</a></li>
-				<li><a href="/contact" class="link mr2">Contact</a></li>
-			</ul>
+        <div class="flex-ns justify-center items-center">
 
-			<ul class="mhn2">
-				{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook" "alt" "Kaldi on Facebook") }}
-				{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter" "alt" "Kaldi on Twitter") }}
-				{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram" "alt" "Kaldi on Instagram") }}
-				{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo" "alt" "Kaldi on Vimeo") }}
-			</ul>
+            <ul class="flex">
+                <li><a href="#about-me" class="pa2 no-underline db">About</a></li>
 
-		</div>
-	</div>
+                <li><a href="#research" class="pa2 no-underline db">Research</a></li>
+
+                <li><a href="#contact" class="pa2 no-underline db">Contact</a></li>
+            </ul>
+
+        </div>
+
+        <div class="f6 tc grey-3 mt3 ">
+            &copy; 2025 Nicole Dryburgh. All Rights Reserved.
+        </div>
+    </div>
 
 </footer>
 

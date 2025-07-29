@@ -15,14 +15,15 @@ blurb:
         Further, I aim to advance the measurement of these relationship experiences to better inform clinical assessment and intervention. The ultimate goal of my work is to enrich the sound measurement needed to inform and evaluate targeted intervention initiatives towards ensuring youth are able to thrive in their interpersonal relationships and beyond.
 intro:
     heading: "Research"
-    text: "My research focuses on applying rigorous methodological and analytic methods, such as multilevel meta-analyses and longitudinal methods, to advance the understanding of how youths’ close, interpersonal relationships shape their mental health. I am particularly interested in the relationships that youth hold that are voluntary (unlike relationships with family), and that are key for shaping adjustment in adolescence: friendship and dating relationships. Specifically, my work aims to answer: How do youths’ interpersonal relationships shape their mental health? What specific experiences in young people’s close relationships are associated with better or worse adjustment, and how can we improve our measurement of these experiences?"
-products:
-    - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
-    - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
-values:
-    heading: Our values
-    text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
+    text: |
+        My research focuses on applying rigorous methodological and analytic methods, such as multilevel meta-analyses and longitudinal methods, to advance the understanding of how youths’ close, interpersonal relationships shape their mental health. I am particularly interested in the relationships that youth hold that are voluntary (unlike relationships with family), and that are key for shaping adjustment in adolescence: friendship and dating relationships. 
+      
+        Specifically, my work aims to answer: How do youths’ interpersonal relationships shape their mental health? What specific experiences in young people’s close relationships are associated with better or worse adjustment, and how can we improve our measurement of these experiences?
+      
+        [Find me on Google Scholar &rarr;](https://scholar.google.com/citations?user=Epj8-BQAAAAJ&hl=en&inst=3169411791868728414&oi=ao_)
+    interests:
+      - Youth and young adult mental health
+      - Friendship
+      - Measurement
+      - Evidence synthesis
 ---
-

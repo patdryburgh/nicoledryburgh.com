@@ -3,6 +3,7 @@
 }
 
 html {
+  color: var(--black);
   scroll-behavior: smooth;
 }
 
@@ -18,13 +19,6 @@ p {
   img {
     border-radius: 0;
   }
-  flex-shrink: 0;
-  //@media (--breakpoint-not-small) {
-  //  position: sticky;
-  //  bottom: 0;
-  //  left: 0;
-  //  //z-index: -1;
-  //}
 }
 
 .content {
@@ -34,3 +28,7 @@ p {
     padding-left: 40%;
   }
 }
+
+//.education p {
+//  margin-bottom: 2em;
+//}
