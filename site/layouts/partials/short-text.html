@@ -1,6 +1,8 @@
-<div class="bg-grey-1 pv4">
-  <div class="flex-l mhn1-l ph3 center mw7">
-    <h2 class="f2 b lh-title mb2 w-40-l">{{.heading}}</h2>
-    <p class="w-60-l mb0">{{.text}}</p>
-  </div>
+<div class="pv5 ph3 flex justify-center justify-start-ns content">
+    <div class="mw6">
+        <h2 class="f2 b lh-title mb3" id="{{ .heading | urlize }}">{{ .heading }}</h2>
+        <div class="mb0">
+            {{ .text | markdownify }}
+        </div>
+    </div>
 </div>
